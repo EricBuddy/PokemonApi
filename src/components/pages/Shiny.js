@@ -46,7 +46,7 @@ function Shiny({bColor}) {
             <div className='text'>
                 Please Enter A Pokemon Name<br/>
                 <input type='text' onChange={e => setShiny(e.target.value)}value={shiny} placeholder='Ex: pikachu'></input>
-                <button onClick={search}>Search</button>
+                <button className='button' onClick={search}>Search</button>
             </div>
             <div className='result'>
                 Name: {shinyAttribute.name}<br/>

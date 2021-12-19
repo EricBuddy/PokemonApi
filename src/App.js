@@ -14,8 +14,8 @@ function App() {
         <Routes>
           
           <Route path="/" element={<Home/>} />
-          <Route path="/non-shiny" element={<NonShiny/>} />
-          <Route path="/shiny" element={<Shiny/>} />
+          <Route path="/non-shiny" element={<NonShiny bColor = '#E54222'/>} />
+          <Route path="/shiny" element={<Shiny bColor = '#1C4CBD'/>} />
           
         
         </Routes>
