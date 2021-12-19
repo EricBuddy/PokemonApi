@@ -1,7 +1,9 @@
-
 import './App.css';
 import NavBar from './components/NavBar'
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
+import Home from './components/pages/Home'
+import NonShiny from './components/pages/NonShiny'
+import Shiny from './components/pages/Shiny'
 function App() {
   return (
     <div className="App">
