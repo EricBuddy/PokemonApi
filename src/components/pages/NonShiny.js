@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import './NonShiny.css'
 import Axios from 'axios'
-function Shiny() {
+function Shiny({bColor}) {
     
     const[nonShiny,setNonShiny]=useState('')
 
@@ -42,7 +42,7 @@ function Shiny() {
 
 
     return (
-        <div className='nonShiny'>
+        <div className='nonShiny' style={{backgroundColor: bColor}}>
             <div className='text'>
                 Please Enter A Pokemon Name<br/>
                 <input type='text' onChange={e => setNonShiny(e.target.value)}value={nonShiny} placeholder='Ex: pikachu'></input>
