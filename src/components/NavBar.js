@@ -8,7 +8,7 @@ function NavBar() {
             <div className='link'>
                 <Link to ='/'>Home</Link>
                 <Link to ='/non-shiny'>Non Shiny Pokemons</Link>
-                <Link to ='/shiny'>Skiny Pokemons</Link>
+                <Link to ='/shiny'>Shiny Pokemons</Link>
                 
             </div>
 

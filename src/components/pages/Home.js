@@ -10,7 +10,7 @@ function Home() {
 
             <div className='button'>
                 <Link to ='/non-shiny'><button><span>Non Shiny Pokemons</span></button></Link>
-                <Link to ='/shiny'><button><span>Skiny Pokemons</span></button></Link>
+                <Link to ='/shiny'><button><span>Shiny Pokemons</span></button></Link>
                 </div>
 
 
